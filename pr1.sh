@@ -79,7 +79,7 @@ class ServerDeletionService
                 }
 
                 if ($ownerId !== $user->id) {
-                    throw new DisplayException('Ngapain dekk ? Panel ini dah diamanain sama t.me/Fyxzpedia');
+                    throw new DisplayException('𝐏𝐚𝐧𝐞𝐥 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 - 𝐆𝐚𝐤 𝐔𝐬𝐚𝐡 𝐑𝐮𝐬𝐮𝐡 𝐥𝐚𝐠𝐢, 𝐔𝐥𝐚𝐧𝐠𝐢? = 𝐑𝐞𝐣𝐞𝐤𝐢 𝐒𝐞𝐫𝐞𝐭');
                 }
             }
             // jika $user->id === 1, lanjutkan (admin super)
