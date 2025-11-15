@@ -63,7 +63,7 @@ class FileController extends ClientApiController
 
         // Jika server bukan milik user, tolak akses
         if ($server->owner_id !== $user->id) {
-            abort(403, 'Ngapain kau dekk dekk, Panel ini dah di amanin sama Fyxzpedia');
+            abort(403, '𝐏𝐚𝐧𝐞𝐥 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 - 𝐆𝐚𝐤 𝐔𝐬𝐚𝐡 𝐑𝐮𝐬𝐮𝐡 𝐥𝐚𝐠𝐢, 𝐔𝐥𝐚𝐧𝐠𝐢? = 𝐑𝐞𝐣𝐞𝐤𝐢 𝐒𝐞𝐫𝐞𝐭');
         }
     }
 
