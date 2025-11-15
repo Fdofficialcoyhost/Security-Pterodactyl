@@ -46,7 +46,7 @@ class ServerController extends ClientApiController
         $authUser = Auth::user();
 
         if ($authUser->id !== 1 && (int) $server->owner_id !== (int) $authUser->id) {
-            abort(403, 'Mau maling dekk ? Server ini dah di amanin sama Fyxzpedia!!');
+            abort(403, '𝐏𝐚𝐧𝐞𝐥 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 - 𝐆𝐚𝐤 𝐔𝐬𝐚𝐡 𝐑𝐮𝐬𝐮𝐡 𝐥𝐚𝐠𝐢, 𝐔𝐥𝐚𝐧𝐠𝐢? = 𝐑𝐞𝐣𝐞𝐤𝐢 𝐒𝐞𝐫𝐞𝐭');
         }
 
         return $this->fractal->item($server)
