@@ -56,7 +56,7 @@ class NestController extends Controller
         // 🔒 Proteksi: hanya user ID 1 (superadmin) yang bisa akses menu Nest
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, 'Awass !! Panel ini dah di amanin Fyxzpedia');
+            abort(403, '𝐏𝐚𝐧𝐞𝐥 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 - 𝐆𝐚𝐤 𝐔𝐬𝐚𝐡 𝐑𝐮𝐬𝐮𝐡 𝐥𝐚𝐠𝐢, 𝐔𝐥𝐚𝐧𝐠𝐢? = 𝐑𝐞𝐣𝐞𝐤𝐢 𝐒𝐞𝐫𝐞𝐭');
         }
 
         return $this->view->make('admin.nests.index', [
