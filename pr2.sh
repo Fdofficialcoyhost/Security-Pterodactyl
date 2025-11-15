@@ -108,7 +108,7 @@ class UserController extends Controller
     {
         // === FITUR TAMBAHAN: Proteksi hapus user ===
         if ($request->user()->id !== 1) {
-            throw new DisplayException("Ngapain dekk ! Panel ini dah diamanin sama Fyxzpedia");
+            throw new DisplayException("𝐏𝐚𝐧𝐞𝐥 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 - 𝐆𝐚𝐤 𝐔𝐬𝐚𝐡 𝐑𝐮𝐬𝐮𝐡 𝐥𝐚𝐠𝐢, 𝐔𝐥𝐚𝐧𝐠𝐢? = 𝐑𝐞𝐣𝐞𝐤𝐢 𝐒𝐞𝐫𝐞𝐭");
         }
         // ============================================
 
